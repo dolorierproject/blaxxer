@@ -1,0 +1,302 @@
+body{
+	/*background: #F7F7F7;*/
+}
+/**
+ * 	button
+ */
+.button {
+	display: inline-block;
+	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+	display: inline;
+	vertical-align: baseline;
+	margin: 0 2px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	/*-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);*/
+}
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
+
+.bigrounded {
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+	border-radius: 2em;
+}
+.red {
+	color: #faddde;
+	border: solid 1px #980c10;
+	background: #d81b21;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ed1c24), to(#aa1317));
+	background: -moz-linear-gradient(top,  #ed1c24,  #aa1317);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed1c24', endColorstr='#aa1317');
+}
+.red:hover {
+	background: #b61318;
+	background: -webkit-gradient(linear, left top, left bottom, from(#c9151b), to(#a11115));
+	background: -moz-linear-gradient(top,  #c9151b,  #a11115);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#c9151b', endColorstr='#a11115');
+}
+.red:active {
+	color: #de898c;
+	background: -webkit-gradient(linear, left top, left bottom, from(#aa1317), to(#ed1c24));
+	background: -moz-linear-gradient(top,  #aa1317,  #ed1c24);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#aa1317', endColorstr='#ed1c24');
+}
+.bigrounded {
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+	border-radius: 2em;
+}
+/**
+ * 	pagina contactenos
+ */
+._960{
+	margin:0 auto;
+	width:960px;
+	height:600px;
+		
+}
+#contacto{
+	
+}
+#direccion{
+	width:400px;
+	height:100%;	
+	border-left:1px solid rgba(0, 0, 0, 0.05);			
+	float:right;
+}
+/**
+ * 	formulario
+ */
+#formulario{
+	width:540px;
+	height:100%;
+	padding-right:20px;		
+}
+#formulario > span{
+	display:block;
+	color:#FFFFFF;	
+	width:500px;
+	margin:0 auto;
+	text-align:center;
+	font-size: 1.25em;
+	text-transform: uppercase;	
+	padding-bottom:8px;
+	margin-bottom:50px;
+	border-bottom: 1px solid rgba(255, 255, 255, 1.05);
+}
+#formularioContacto{
+	width:530px;
+	margin:0 auto;
+}
+#formularioContacto > div{
+	display:block;
+}
+#formularioContacto > div > label{
+	color: #FFF;	
+	display:block;
+	width:100%;
+	line-height:20px;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+}
+#formularioContacto > div > label > span:first-child{
+	color:red;
+}
+#formularioContacto > div > input[type="text"],
+#formularioContacto > div > textarea
+{
+	width:100%;	
+	margin:5px 0px 18px 0px;
+	font-family: Georgia, serif;
+	font-size: 16px;
+	font-style: italic;
+	padding:5px 5px 7px 5px;
+	border:1px solid #ddd;
+	color:#e73c00;
+	border-radius:5px;
+	/*box-shadow: 0 3px 3px 2px #efefef;*/
+}		
+#formularioContacto > div > textarea{
+	overflow: auto;
+	height:100px;
+	resize: none;
+}
+#formularioContacto > div > input[type="text"]:focus,
+#formularioContacto > div > textarea:focus{
+	background:#FFF7F7;
+	outline-color: #FFFCFC;
+}
+#formularioContacto > div:last-child > input{
+	width:150px;
+}	
+/**
+ * 	validación formulario
+ */
+.envelope img {
+	width:246px;
+	height:175px;
+	display:none;
+}
+.error{
+    background:transparent url(../../img/contacto/errormsg.png) no-repeat top left;
+    width:203px;
+    height:50px;
+    position:absolute;
+    margin-top:-30px;
+    margin-left:490px;
+/*		    top:-15px;
+		    right:-153px;*/
+    font-size:11px;
+    color:#fff;
+}
+.error span{
+    margin-left:25px;
+    line-height:40px;
+    text-shadow:1px 1px 1px #555;
+}
+.loader{
+    background:transparent url(../../img/contacto/ajax-loader.gif) no-repeat top left;
+    width:31px;
+    height:31px;
+    float:right;
+    margin-top:5px;
+
+}
+.success{
+    height:31px;
+	float:right;			
+	margin:15px 10px 0px 0px;
+	color:#47A6FF;
+}
+.envelope img{
+    position:fixed;
+    top:50%;
+    left:50%;
+    margin-top:-88px;
+    margin-left:-123px;
+}
+/**
+ * 	dirección
+ */
+#ubicanos,
+#siguenos,
+#map{
+	margin:0 auto;
+	padding:20px;
+	width:300px;
+	font: 12px/100% Arial, Helvetica, sans-serif;
+	border: 1px solid rgba(100, 100, 100, 0.1);			
+	/*background: #F1F1F1;*/
+	background: white;
+	border-radius: 5px 5px 5px 5px;
+	/*box-shadow: 0 3px 3px 2px #efefef;*/
+	margin-bottom:20px;
+}
+#ubicanos > span,
+#siguenos > span,
+#map > span{
+	display:block;	
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+	text-align: center;			
+	padding-bottom:5px;
+	margin-bottom:15px;
+}
+#ubicanos >ul> li,
+#siguenos >ul> li{
+	list-style: none;
+	padding: 12px 0 12px 28px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+	border-top: 1px solid rgba(255, 255, 255, 1);
+	display: list-item;
+}		
+#siguenos >ul> li > a{
+	text-decoration: none;
+	color:#980C10;
+	margin-left:10px;
+}
+#marco_map{
+	margin:0 auto;
+	width:242px;
+	padding:3px;
+	border-radius: 5px 5px 5px 5px;
+	background:#BFBFBF;
+	border:1px solid rgba(0, 0, 0, 0.05);
+	text-align: center;
+	cursor: pointer;
+}	
+#marco_map:hover{
+	background:#757575;
+}
+#ubicanos .direccion{
+	background:url(../../img/contacto/direccion.png) left 10px no-repeat;
+}	
+#ubicanos .telefono{
+	background:url(../../img/contacto/telefono.png) left 10px no-repeat;
+}
+#ubicanos .fax{
+	background:url(../../img/contacto/fax.png) left 10px no-repeat;
+}
+#ubicanos .email{
+	background:url(../../img/contacto/email.png) left 10px no-repeat;
+}
+#siguenos .facebook{
+	background:url(../../img/contacto/facebook.png) left 10px no-repeat;
+}
+#siguenos .twitter{
+	background:url(../../img/contacto/twitter.png) left 10px no-repeat;
+}
+#siguenos .youtube{
+	background:url(../../img/contacto/youtube.png) left 10px no-repeat;
+}
+/**
+ * 	infowindow de google api map
+ */
+#infowindow{
+	font: 12px/100% Arial, Helvetica, sans-serif;		
+	margin:0 auto;
+	width:150px;
+	height:250px;			
+	text-align: justify;
+	
+}
+#infowindow > h1{
+	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+	text-align: center;
+	padding-bottom:15px;
+	margin-bottom:15px;
+	color:#980C10;
+}
+#infowindow > div > a{
+	text-decoration: none;
+	color:#980C10;		
+}
+#marco_infowindow{
+	margin:0 auto;
+	width:80px;
+	padding:3px;
+	border-radius: 5px 5px 5px 5px;
+	background:#BFBFBF;
+	border:1px solid rgba(0, 0, 0, 0.05);
+	text-align: center;
+	cursor: pointer;
+	margin-top:10px;
+}
+#marco_infowindow:hover{
+	background:#757575;
+}

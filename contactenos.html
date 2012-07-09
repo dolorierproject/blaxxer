@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        
+        <title>CSS3 Animated Navigation Menu | Tutorialzine Demo</title>
+        
+        <!-- Our CSS stylesheet file -->
+        <link rel="stylesheet" href="css/inicio/styles.css" />
+        
+        <!-- Including the Lobster font from Google's Font Directory -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster" />
+        
+        <!-- Enabling HTML5 support for Internet Explorer -->
+        <!--[if lt IE 9]>
+          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+	    <!--pool-->	 	    
+		<link href="css/contacto/jquery.fancybox.css" rel="stylesheet" />
+		<link href="css/contacto/custom.css" rel="stylesheet" />  
+		<script src="js/contacto/jquery-v1.7.2.min.js"></script>
+		<script src="js/contacto/contactenos.js"></script>
+		<script src="js/contacto/jquery.mousewheel-3.0.6.pack.js"></script>
+		<script src="js/contacto/jquery.fancybox.js"></script>
+		<script src="js/contacto/custom.js"></script>        
+    </head>
+    
+    <body>
+		<div id="head">
+			<div id="header">
+				<div class="wrapper">
+				<div>
+					<div id="logo">
+						<img src="img/logo.jpg" width="300" height="80"></div>
+					</div>
+
+						<ul class="fancyNav">
+							<li id="news"><a href="index.html">Inicio</a></li>
+							<li id="about"><a href="empresa.html">Empresa</a></li>
+							<li id="services"><a href="productos.html">Productos</a></li>
+							<li id="contact"><a href="contactenos.html">Contactenos</a></li>
+						</ul>
+
+				</div>
+				</div>
+			</div>
+		</div>	
+		<div class="wrapper_content">	
+			<div id="contacto" class="_960">
+				<div id="direccion">
+					<div id="ubicanos">
+						<span>Ubícanos</span>
+						<ul>
+							<li class="direccion">Jr Antonio bazzo 691 – 306 Gamarra – La Victoria</li>
+							<li class="telefono">325 – 3832 / 366 – 4053</li>
+							<li class="fax">473 – 9822</li>
+							<li class="email">uniformes@blaxxer.com</li>
+						</ul>
+					</div>
+					<div id="siguenos">
+						<span>Síguenos en:</span>
+						<ul>
+							<li class="facebook"><a href="#">Facebook</a></li>
+							<li class="twitter"><a href="#">Twitter</a></li>
+							<li class="youtube"><a href="#">Youtube</a></li>
+						</ul>
+					</div>
+					<div id="map">
+						<span>Encuéntranos fácil con gmap</span>
+						<div id="marco_map">
+							<a class="fancybox2" href="map.html"><img src="img/contacto/maplima2.png" /></a>
+						</div>							
+					</div>
+				</div>
+				<div id="formulario">
+					<span>Contáctenos</span>
+					<form id="formularioContacto" action="">
+						<div>
+							<label>Nombre:<span>*</span></label>
+							<input type="text" id="name" name="name" class="inplaceError" />
+							<span class="error" style="display: none"></span>
+						</div>				
+						<div>
+							<label>Email:<span>*</span></label>
+							<input type="text" id="email" name="email" class="inplaceError" />
+							<span class="error" style="display: none"></span>
+						</div>
+						<div>
+							<label>Telefono:</label>
+							<input type="text" id="phone" name="phone" class="inplaceError" />					
+						</div>
+						<div>
+							<label>Website:</label>
+							<input type="text" id="website" name="website" class="inplaceError" />					
+						</div>
+						<div>
+							<label>Mensaje:<span>*</span></label>
+							<textarea id="message" name="message" class="inplaceError"></textarea>
+							<span class="error" style="display: none"></span>
+						</div>
+						<div>
+							<input type="button" id="send" class="button red" value="Enviar" />
+							<span id="loader" class="loader" style="display: none"></span>
+							<span id="success_message" class="success"></span>
+						</div>
+						<input id="newcontact" name="newcontact" type="hidden" value="1"></input>
+					</form>
+				</div>
+					<div class="envelope">
+		            	<img id="envelope" src="img/contacto/envelope.png" alt="envelope" />
+		        	</div>
+				</div>
+			</div>
+		</div>
+
+
+
+    </body>
+</html>

@@ -1,0 +1,172 @@
+
+		#wrapper{
+			width:960px;
+			margin: 0 auto;
+			
+		}
+		body{
+			background:url('../../img/chefPeru.jpg');
+			background-size: cover;
+			margin:0;
+			padding:0;
+		}
+		/*#header{
+			background:blue;
+			width:960px;
+			height:140px;
+			margin: 0 auto;
+		}*/
+		#content_producto{
+			background;
+			width:960px;
+			margin: 20px auto;
+		}
+		#footer2{
+			background:green;
+			width:960px;
+			height:50px;
+			margin: 0 auto;
+		}
+
+		#slide_categoria{
+			background;
+			width: 960px;
+			height: 140px;
+			margin: 0 0 10px 0;
+			clear:left;
+			border-radius: 10px;
+		}
+		#panel_categoria{
+			background;
+			width: 960px;
+			height: 350px;
+			border-radius: 10px;
+		}
+		.categoria_mini{
+			background:url(../../img/fondo_transparente.png) ;
+			width: 70px;
+			height: 100px;
+			margin: 10px 10px 0 0;
+			font-family:Verdana, Geneva, sans-serif;
+			font-size: 12px;
+			text-align:center;
+			font-weight:bold;
+			padding: 10px;
+			border-radius: 10px;
+		}
+		.categoria_mini .img{
+			padding: 10px 0 0 0;
+		 }
+		#slider a{
+			text-decoration:none;
+			color:black;
+		}
+		#slider a:hover div{
+			background:yellow;
+		 }
+		#panel_categoria, #slide_categoria{
+			
+		 }
+		 
+        .btn-left{cursor:pointer; width:24px; height:43px; margin:80px 0; 
+		background:url('../../img/productos/oferta_panel/arrow-prev.png'); 
+		float:left; text-align:center; line-height:30px; 
+		text-transform:uppercase; font-weight:bold;border-radius: 10px;color:black;}
+		
+		.btn-right {cursor:pointer; width:24px; height:43px; margin:80px 0; 
+		background:url('../../img/productos/oferta_panel/arrow-next.png'); float:right; 
+		text-align:center; line-height:30px; text-transform:uppercase; font-weight:bold;border-radius: 
+		10px;color:black;}
+
+		.oferta_panel{
+			background;
+			width: 542px;
+			height: 200px;
+			opacity:0.8;
+			filter:alpha(opacity=80);
+			font-size: 56px;
+		}
+		.categoria_maxi{
+			background:url(../../img/fondo_transparente.png) ;
+			width: 960px;
+			height: 350px;
+			border-radius: 10px;
+			display:none;
+		}
+		#slide_oferta{
+			background:url(../../img/fondo_transparente.png) ;
+			width: 590px;
+			height: 200px;
+			float:right;
+			border-radius: 10px;
+		}
+		
+		#panel_producto{
+			background:url(../../img/productos/modelo.png) ;
+			width: 310px;
+			height: 170px;
+			margin: 0 0 10px 0;
+			float:left;
+			border-radius: 10px;
+			padding:10px 20px 20px 20px;
+		}
+		#panel_producto span{
+			color:#A80C1E;
+			font-size:42px;
+			font-weight:normal;
+			line-height:1em;
+			font-weight:bold;
+			margin: 0px 0px 0 85px;
+		}
+		#panel_producto p{
+			font-family:Georgia,serif;
+			color:#black;
+			font-size:11px;
+			text-align:justify;
+			margin: 10px 0px 0 120px;
+		}
+		p:first-letter {
+			font-size: 250%;
+			margin: -5px 6px 0 0;
+			float: left;
+			font-weight: bold;
+		}
+	
+			.categoria_imagen{
+				background;
+				width:340px;
+				height:310px;
+				float:left;
+				padding:20px 20px 20px 40px;
+			}
+			.categoria_imagen img{
+				width:340px;
+				height:310px;
+			}
+			.categoria_texto{
+				background;
+				width:500px;
+				height:310px;
+				float:left;
+				padding:20px 40px 20px 20px;
+			}
+			.categoria_texto span{
+				color:#A80C1E;
+				display:block;
+				font-size:50px;
+				font-weight:normal;
+				letter-spacing:-3.5px;
+				line-height:1em;
+				font-weight:bold;
+			}
+			.categoria_texto p{
+				font-family:Georgia,serif;
+				color:#black;
+				font-size:16px;
+				text-align:justify;
+			}
+			.categoria_texto li{
+				font-family:Georgia,serif;
+				color:#black;
+				font-size:14px;				
+			}
